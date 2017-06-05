@@ -1,0 +1,3 @@
+original GAN paper - https://arxiv.org/abs/1406.2661
+WGAN paper review - http://www.alexirpan.com/2017/02/22/wasserstein-gan.html
+WGAN improved training - 
