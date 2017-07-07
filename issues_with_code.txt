@@ -1,0 +1,6 @@
+dst tensor not initialized....
+	shutdown other notebooks to free up RAM
+
+first entry of learning_rate_schedule must be -1
+
+if want to create stats for FID must have "os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"" before importing tensorflow

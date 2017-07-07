@@ -1,0 +1,2 @@
+General ML questions:
+	why does overfitting occur in the softmax-cross-entropy-error but not in the validation set accuracy?

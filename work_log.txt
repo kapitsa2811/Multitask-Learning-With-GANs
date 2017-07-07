@@ -1,0 +1,9 @@
+19/06
+
+	MTL still not working. As a sanity check, set the aux task to be the same as the main task, i.e., 100-way classification. Got a discrepency in the results still... baseline converged quicker and to a slightly better optimum. Especially apparent was the difference in the training performance. The baseline would quickly hit close to 100% accuracy very quickly where as the MTL model wouldn't at all. 
+
+	This clearly points to an implementation error. With both tasks the same, a correct implementation should show MTL and the baseline to be close to identical, right? I will now check the tensorflow operations match between the two tasks and make sure that the learning rate is being halved for the correct variables, i.e., the shared ones.
+
+	Learning rate seems to be getting halved correctly. Variables seem to match correctly. Trying now without batchnorm... Didn't work..
+
+	Now try changing MTL code to only train one task with normal learning rate, to see if that task matches baseline... 

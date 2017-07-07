@@ -1,0 +1,19 @@
+MTL:
+	Try smaller datasets.
+	Don't worry too much about initialisations, they shouldnt effect learnign too much. If they do, this is a sign of an unstable architecture.
+	Make sure you do a full pass on each task for each epoch.
+	Halve learning rate (just for shared layers?).
+	Don't compromise too much on complexity for training time.
+
+CGAN:
+	Explore well - check differences between coarse/fine.
+	Interpolation in latent space of coarse and fine.
+
+Evaluation:
+	Use humans iof necessary.
+
+Writing:
+	Pitch to peers. As if writing paper.
+	Take time only on important background.
+	Work within bounds of word count.
+

@@ -1,0 +1,4 @@
+1. use google sheets
+2. different markers & colours for different lines on same graph
+3. shaded area to indicate where maximum was achieved
+4. 

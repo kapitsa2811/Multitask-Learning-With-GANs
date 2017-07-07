@@ -1,0 +1,5 @@
+original GAN paper - https://arxiv.org/abs/1406.2661
+WGAN paper review - http://www.alexirpan.com/2017/02/22/wasserstein-gan.html
+WGAN improved training - https://arxiv.org/pdf/1704.00028.pdf
+WGAN source code - https://github.com/shekkizh/WassersteinGAN.tensorflow
+AC-GAN - https://arxiv.org/pdf/1610.09585.pdf
